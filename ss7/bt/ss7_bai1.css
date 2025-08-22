@@ -1,0 +1,29 @@
+header{
+    margin: 0;
+    padding: 0;
+}
+header,nav,section, article, footer, div{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+section, article{
+    width: 70%;
+    float: left;
+}
+aside{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid red;
+    width: 25%;
+    height: 200px;
+    float: right;
+    text-align: center;
+
+}
+footer{
+    clear: both;
+    background: blanchedalmond;
+}
