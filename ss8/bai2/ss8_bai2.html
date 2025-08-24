@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Surface</title>
+    <link rel="stylesheet" href="main/webapp/bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 40px;
+            border-bottom: 1px solid #ddd;
+        }
+        .left-menu, .right-menu {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .brand {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        header img {
+            height: 20px;
+            margin-right: 6px;
+        }
+
+        .brand {
+            font-weight: 600;
+            margin-right: 25px;
+        }
+
+        .nav-link, .dropdown-toggle {
+            color: black;
+            font-size: 15px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .nav-link:hover, .dropdown-toggle:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-menu {
+            margin-top: 0;
+            border-radius: 0;
+        }
+
+        .shop-deals {
+            background-color: #0067b8;
+            color: #fff !important;
+            font-weight: bold;
+            padding: 6px 14px;
+            margin-left: 15px;
+            border-radius: 2px;
+            text-decoration: none;
+        }
+
+        .shop-deals:hover {
+            background-color: #005a9e;
+            color: #fff;
+        }
+
+        .user-icon {
+            font-size: 22px;
+            margin-left: 12px;
+            border: 1px solid #aaa;
+            border-radius: 50%;
+            width: 34px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .turn {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background: gray;
+            padding: 8px 20px;
+        }
+        .form-switch {
+            margin-left: 0;
+        }
+        article {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        article img {
+            max-width: 100%;
+            height: auto;
+        }
+        article h1 {
+            margin-top: 20px;
+            font-size: 32px;
+        }
+        article p {
+            margin: 10px auto 30px;
+            max-width: 600px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="left-menu">
+        <img src="logo.png" alt="Microsoft">
+        <span class="brand">Surface</span>
+
+        <div class="nav">
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Computers</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Surface Pro</a></li>
+                    <li><a class="dropdown-item" href="#">Surface Laptop</a></li>
+                    <li><a class="dropdown-item" href="#">Surface Studio</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Computers for Business</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Enterprise</a></li>
+                    <li><a class="dropdown-item" href="#">Education</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Accessories</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Keyboards</a></li>
+                    <li><a class="dropdown-item" href="#">Mice</a></li>
+                    <li><a class="dropdown-item" href="#">Pens</a></li>
+                </ul>
+            </div>
+
+            <a href="#" class="nav-link">Shop now</a>
+            <a href="#" class="nav-link">Support</a>
+        </div>
+    </div>
+
+    <div class="right-menu">
+        <a href="#" class="shop-deals">SHOP DEALS</a>
+        <a href="#" class="nav-link">All Microsoft</a>
+        <a href="#" class="nav-link">Search</a>
+        <a href="#" class="nav-link">Cart</a>
+        <a href="#" class="nav-link">Sign in</a>
+        <div class="user-icon">
+            <i class="bi bi-person-circle"></i>
+        </div>
+    </div>
+</header>
+<nav class="turn">
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+    </div>
+</nav>
+<article>
+    <img style="width:10%; align-items: center; margin-left: auto" src="MSFT-copilot-logo-lockup-home-fy25.avif">
+<h1 style="text-align: center">Meet the new Surface PCs </h1>
+<p style="text-align: center">Incredible speed and battery life come together with next-level AI experiences and signature Surface design.</p>
+    <img src="family-color-hero-fy25.avif">
+</article>
+</body>
+</html>
